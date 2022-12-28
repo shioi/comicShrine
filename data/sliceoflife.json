@@ -1,0 +1,27 @@
+    [
+            {
+                "Title": "Hyouka",
+                "Author": "Yonezawa Honobu",
+                "coverimage": "hyouka.jpg"
+            },
+            {
+                "Title": "Be Blues",
+                "Author": "Tanaka Motoyuki",
+                "coverimage": "beblue.jpg"
+            },
+            {
+                "Title": "Yotuba&!",
+                "Author": "Azuma Kiyohiko",
+                "coverimage": "yotsuba.jpg"
+            },
+            {
+                "Title": "Machida-kun no Sekai",
+                "Author": "Ando Yuki",
+                "coverimage": "machida.jpg"
+            },
+            {
+                "Title": "Sousou no Frieren",
+                "Author": "Abe Tsukasa",
+                "coverimage": "frieren.jpg"
+            }
+        ]

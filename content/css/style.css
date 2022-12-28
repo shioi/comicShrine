@@ -1,0 +1,48 @@
+body {
+background-color: rgb(34, 34, 34);
+font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
+font-size: 100%;
+line-height: 1.63;
+color: rgb(217, 217, 217);
+}
+
+#menu-bar {
+display: flex;  
+flex-direction: column;
+align-items: center;
+}
+
+#nav-bar {
+  box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  display: flex;
+  padding: 5px;
+  padding-right: 8px;
+  width: 100%;
+  justify-content: center;
+}
+
+#nav-bar.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+#nav-bar li {
+display:inline
+}
+
+#nav-bar a {
+  text-decoration: none;
+  padding: 8px;
+  color: rgb(120, 115, 115);
+}
+
+#nav-bar a:hover {
+  color: rgb(245, 245, 245);
+}
+
+#main-logo img {
+  width: 50%;
+  float:left
+}

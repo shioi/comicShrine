@@ -1,0 +1,54 @@
+body {
+    background-color:rgb(34, 34, 34);
+}
+
+h2 {
+    
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.taste a {
+  color: rgb(120, 115, 115);
+}
+
+.nav-bar 
+{
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    
+}
+
+.nav-bar a {
+    color: rgb(120, 115, 115);
+    
+}
+
+
+.nav-bar a:hover {
+    color: rgb(245, 245, 245);
+    font-weight: 300;
+  }
+
+  .content{
+    border: 2px solid black;
+  }
+
+  .description>.title {
+    color: #333333;
+    
+  }
+
+  .description>.author{
+    color: #555555;
+  }
+
+  .tags>.tag-val {
+    background-color:  #999999;
+    color: white;
+  }
+
+  h1 {
+    color: salmon;
+  }
+
+  
