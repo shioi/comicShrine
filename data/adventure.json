@@ -2,36 +2,43 @@
         {
             "Title": "Vinland Saga",
             "Author": "Yukimura Makoto",
-            "coverimage": "vinlandsaga.jpg"
+            "coverimage": "vinlandsaga.jpg",
+            "current-selected":false
         },
         {
             "Title": "Berserk",
             "Author": "Kento Miura",
-            "coverimage": "berserk.jpg"
+            "coverimage": "berserk.jpg",
+            "current-selected":false
         },
         {
             "Title": "Isekai Walking",
             "Author": "Aruka Hito",
-            "coverimage": "isekaiwalking.jpg"
+            "coverimage": "isekaiwalking.jpg",
+            "current-selected":false
         },
         {
             "Title": "Battle Angel Alita",
             "Author": "Kishiro Yukito",
-            "coverimage": "alita.jpg"
+            "coverimage": "alita.jpg",
+            "current-selected":false
         },
         {
             "Title": "Girl's Last Toru",
             "Author": "Tsukumizu",
-            "coverimage": "lasttour.jpg"
+            "coverimage": "lasttour.jpg",
+            "current-selected":false
         },
         {
             "Title": "Vagabond",
             "Author": "Takahashi Inou",
-            "coverimage": "vagabond.jpg"
+            "coverimage": "vagabond.jpg",
+            "current-selected":false
         },
         {
             "Title": "One piece",
             "Author": "Eiichiro Oda",
-            "coverimage": "onepiece.jpg"
+            "coverimage": "onepiece.jpg",
+            "current-selected":false
         }
 ]
