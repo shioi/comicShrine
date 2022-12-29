@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="comicShrine">
-  <head>
-    <title>Comic Shrine</title>
-    <base href="/comicShrine/" />
-    <link href="./content/css/style.css" rel="stylesheet" type="text/css" />
-    <script src="./app/lib/angular.min.js"></script>
-    <script src="./app/app.js"></script>
-    <script src="./app/lib/angular-route.min.js"></script>
-    
-  </head>
-  <body>
-    <header ng-include="'./header.html'"></header>
-    <main ng-view>
-    </main>
-    
-  </body>
+
+<head>
+  <title>Comic Shrine</title>
+  <link href="./content/css/style.css" rel="stylesheet" type="text/css" />
+  <script src="./app/lib/angular.min.js"></script>
+  <script src="./app/app.js"></script>
+  <script src="./app/lib/angular-route.min.js"></script>
+
+</head>
+
+<body>
+  <header ng-include="'./header.html'"></header>
+  <main ng-view>
+  </main>
+
+</body>
+
 </html>

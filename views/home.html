@@ -1,16 +1,15 @@
 <h1>Trending</h1>
 <div class="content">
-<input  type="text" ng-model="search"/>
+    <input type="text" ng-model="search" />
     <ul>
         <li ng-repeat="comic in comics | filter: search">
-            <a href="#" ng-click="setForum(comic)">
-            <h2>{{comic.Title}}</h2>
-            <img src="{{comic.coverimage}}"alt="coverimage"/>
-        </a>
+            <a ng-click="setForum(comic)">
+                <h2>{{comic.Title}}</h2>
+                <img src="{{comic.coverimage}}" alt="coverimage" />
+            </a>
         </li>
     </ul>
 </div>
 <h3>
-    
-</h3>
 
+</h3>

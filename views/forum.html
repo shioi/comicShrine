@@ -1,5 +1,13 @@
 <h1>Forum</h1>
-<p>Discuss here!!!</p>
-<h3>
-    {{selectedComic}}
-</h3>
+<h3>{{comicInfo.Title}}</h3>
+<button ng-click="addThread()">Add new thread</button>
+<div ng-include='formInclude' ng-if="opened"></div>
+
+<div class="forums">
+    <ul>
+        <li ng-repeat="forum in allthreads">
+            <h3>{{forum.Title}}</h3>
+            <p>{{forum.Description}}</p>
+        </li>
+    </ul>
+</div>

@@ -1,1 +1,7 @@
 <h1>Directory</h1>
+<input type="text" placeholder="search" ng-model="searched">
+<ul>
+    <li ng-repeat="manga in mangalist | filter:searched : comparator : mangalist.title">
+        {{manga.title}}
+    </li>
+</ul>
